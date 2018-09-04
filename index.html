@@ -1,8 +1,22 @@
 <html>
 <head>
     <title>Anton Romankov - Software Engineer</title>
+
+    
+    <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.1.0/webcomponents-loader.js"></script>
+    <!-- Load element definition via HTMLImports -->
+    <link rel="import" href="https://cdn.rawgit.com/zerodevx/zero-md/v1.1.0/build/zero-md.html" />
+    
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <h1>Anton S. Romankov</h1>
-</body>
+    <div class="sidebar">
+        <h1 style="margin-left: 30px">Anton<br/>Romankov</h1>
+    </div>
+    <div class="main">
+        <zero-md src="cv/personal.md"></zero-md>
+        <br/>
+        <zero-md src="cv/education.md"></zero-md>
+    </div>
 </html>
