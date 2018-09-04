@@ -2,21 +2,41 @@
 <head>
     <title>Anton Romankov - Software Engineer</title>
 
+    <link rel="stylesheet" href="index.css" />
     
     <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.1.0/webcomponents-loader.js"></script>
     <!-- Load element definition via HTMLImports -->
     <link rel="import" href="https://cdn.rawgit.com/zerodevx/zero-md/v1.1.0/build/zero-md.html" />
-    
-    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
     <div class="sidebar">
+        <div style="text-align: center">
+            <img width="140px" src="resources/logo2.png" />
+        </div>
         <h1 style="margin-left: 30px">Anton<br/>Romankov</h1>
+        <a href="#personal">Personal</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
     </div>
     <div class="main">
-        <zero-md src="cv/personal.md"></zero-md>
         <br/>
+
+        <a id="personal"/>
+        <zero-md src="cv/personal.md"></zero-md>
+        <div class="vdot"></div>
+
+        <a id="experience"/>
+        <zero-md src="cv/experience.md"></zero-md>
+        <div class="vdot"></div>
+
+        <a id="education"/>
         <zero-md src="cv/education.md"></zero-md>
+        <div class="vdot"></div>
+        
+        <a id="skills"/>
+        <zero-md src="cv/skills.md"></zero-md>
+        <div class="vdot"></div>
     </div>
 </html>
