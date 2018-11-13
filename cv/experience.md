@@ -15,7 +15,7 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
 + reference: Neil McDonald / neilmcd@cisco.com
 
 
-### Software engineer
+### Software Engineer
 *Jun 2013 - Nov 2016*
 
 Worked in outsourcing company Noveo. Was participating in project Wisemo

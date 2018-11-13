@@ -28,10 +28,3 @@ h1 {
     margin-left: 240px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
-
-.vdot {
-    width: 1%;
-    height: 128px;
-    border-right: 2px dotted #eee;
-    margin: 16px;
-}
