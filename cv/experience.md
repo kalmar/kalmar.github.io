@@ -4,7 +4,7 @@
 *Nov 2016 - Present*
 
 Currently I'm working in outsourcing company Xored. Participating in developing Cisco’s
-[PI](https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-infrastructure-3-5/model.html) and [DNA](https://www.cisco.com/c/en/us/solutions/enterprise-networks/index.html) products - which are platforms to manage network infrastructure built with Cisco hardware. I'm in charge for deploying configuration to managed devices.
+[Prime Infrastructure](https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-infrastructure-3-5/model.html) and [DNA](https://www.cisco.com/c/en/us/solutions/enterprise-networks/index.html) products - which are platforms to manage network infrastructure built with Cisco hardware. I'm in charge for deploying configuration to managed devices.
 
 + company: [Xored Inc](https://xored.com) / [Cisco](https://cisco.com)
 + location: Novosibirsk, Russia

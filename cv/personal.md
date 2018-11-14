@@ -8,5 +8,4 @@
 + birth date: __10/18/1986__
 + location: __Novosibirsk, Russia__
 + email: kalmarster ![mail](resources/mail.png)
-+ mobile: +7 923 229 fifteen sixteen
-+ page: https://kalmar.github.io/
++ mobile: ![rus](resources/rus.png) 923 229 XV XVI
