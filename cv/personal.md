@@ -8,4 +8,4 @@
 + birth date: __10/18/1986__
 + location: __Novosibirsk, Russia__
 + email: kalmarster ![mail](resources/mail.png)
-+ mobile: ![rus](resources/rus.png) 923 229 XV XVI
++ mobile: ![rus](resources/rus.png) ``OTIzMjI5MTUxNg==``
