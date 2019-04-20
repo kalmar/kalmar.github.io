@@ -28,3 +28,18 @@ h1 {
     margin-left: 240px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
+
+#sbfooter {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 30pt;
+}
+
+#downloadlink {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    display: block;
+}
