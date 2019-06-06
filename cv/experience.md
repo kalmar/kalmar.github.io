@@ -9,16 +9,33 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
 + company: [Xored Inc](https://xored.com) / [Cisco](https://cisco.com)
 + location: Novosibirsk, Russia
 + stack
-  + Java / Hibernate / Oracle / HTML / JS
+  + Java / Hibernate / MQ / Oracle / HTML / JS
   + Linux
   + Git / Maven / Docker
 + reference: Neil McDonald / neilmcd@cisco.com
 
 
+### Technical Lead (at institute, in parallel)
+*Sep 2015 - Dec 2016*
+
+Wrote a client-server app for seismometric monitoring for [RusHydro](http://www.eng.rushydro.ru/).
+It's currently been using for [Zeya Dam](https://en.wikipedia.org/wiki/Zeya_Dam).
+
++ company: [ICT SB RAS](http://www.ict.nsc.ru/en)
++ location: Novosibirsk, Russia
++ stack:
+    + C++ / QT / protobuf / asio / SQLite
+        + Server(C++) -- protobuf/asio -- Client (QT)
+    + Linux
+    + Git / CMake / Docker
++ reference: Daria Korolenko / dbkorolenko@gmail.com
++ paper: [DOI:10.3103/S0747923918040114](http://link.springer.com/article/10.3103/S0747923918040114)
+
+
 ### Software Engineer
 *Jun 2013 - Nov 2016*
 
-Worked in outsourcing company Noveo. Was participating in project Wisemo
+Worked in outsourcing company Noveo. I was participating in project Wisemo
 – remote desktop, host and client, from any device to any. Supported
 platforms: Windows, iOS, Android, WinCE, Chrome Pnacl.
 

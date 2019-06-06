@@ -10,7 +10,7 @@
 + CMake / Maven / Gradle
 
 ### Languages
-+ Russian - mother-tongue
++ Russian - Mother-tongue
 + English - Upper Intermediate
 
 ### Coursera
