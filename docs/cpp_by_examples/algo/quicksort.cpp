@@ -8,72 +8,70 @@
 #include <stack>
 
 template<class T>
-std::vector<T> myqsort(std::vector<T>& A)
+void myqsort(std::vector<T>& A, int left, int right)
 {
-    if (A.size() <= 1) return A;
-    T pivot = A[0]; // выбираем какой-то элемент, вопрос выбора - отдельная тема для разговора
-    std::vector<T> lA, rA;
-    for (int i = 1; i < A.size(); ++i)
+    // std::cout << "myqsort " << left << ".." << right << std::endl;
+    
+    auto mypartition = [&A](int l, int r)
     {
-        T d = A[i];
-        // раскидываем элементы слева и справа от выбранного
-        if (d < pivot) lA.push_back(d);
-        else rA.push_back(d);
-    }
-    // рекурсивно зовем себя же для половинок
-    auto lR = myqsort(lA);
-    auto rR = myqsort(rA);
-    // собираем результат как (lR + pivot + rR)
-    lR.push_back(pivot);
-    lR.insert(lR.end(), rR.begin(), rR.end());
-    return lR;
-}
-
-template<class T>
-void myqsort2(std::vector<T>& A)
-{
-    std::stack<std::pair<int,int>> ps;
-    ps.push(std::pair<int,int>(0, A.size()-1));
-
-    while (!ps.empty())
-    {
-        auto p = ps.top();
-        ps.pop();
-
-        if (p.first >= p.second) continue;
-
-        T pivot = A[(p.first + p.second) / 2];
-        auto i = p.first - 1;
-        auto j = p.second + 1;
-
-        int r = 0;
+        T pivot = A[(l + r) / 2];
+        int i = l - 1;
+        int j = r + 1;
         for (;;)
         {
             do { i += 1; } while (A[i] < pivot);
             do { j -= 1; } while (A[j] > pivot);
-
-            if (i >= j) { r = j; break; }
-
-            std::iter_swap(A.begin()+i, A.begin()+j);
+            if (i >= j) return j;
+            // std::cout << "swap " << i << " <> " << j << std::endl;
+            std::swap(A[i], A[j]);
         }
+    };
 
-        ps.push(std::pair<int,int>(p.first, r-1));
-        ps.push(std::pair<int,int>(r+1, p.second));
+    if (left < right)
+    {
+        int p = mypartition(left, right);
+        // std::cout << "p = " << p << std::endl;
+        myqsort(A, left, p);
+        myqsort(A, p+1, right);
     }
 }
 
-int main() 
-{ 
-    std::mt19937 gen(time(0)); 
-    std::uniform_int_distribution<> uid(10, 1000);
 
-    std::vector<int> data(10000);
-    std::generate(data.begin(), data.end(), std::bind(uid, gen));
-    myqsort2<int>(data); auto& sd = data;
+int main(int argc, char** argv)
+{
+    for (int s = 10; s < 10000001; s = s*10)
+    {
+        std::mt19937 gen(time(0)); 
+        std::uniform_int_distribution<> uid(10, 1000);
 
-    std::cout << "My numbers: ";
-    for (int i : sd) std::cout << i << ' ';
-    std::cout << std::endl;
+        std::vector<int> v(s);
+        std::generate(v.begin(), v.end(), std::bind(uid, gen));
+        
+        myqsort<int>(v, 0, v.size()-1);
 
+        int ok = true;
+        for (int i = 1; i < v.size(); ++i)
+        {
+            if (v[i-1] > v[i])
+            {
+                ok = false;
+                break;
+            }
+        }
+
+        if (ok)
+        {
+            std::cout << s << " - OK" << std::endl;
+        }
+        else
+        {
+            std::cout << s << " - FAIL" << std::endl;
+        }
+
+        // for (int i : v) std::cout << i << ", "; std::cout << std::endl;
+        // break;
+    }
+    
+    
     return 0;
-} 
+}

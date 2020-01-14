@@ -51,17 +51,38 @@ void myHeapSort(std::vector<T>& arr) {
 
 
 
-int main() 
-{ 
-    std::mt19937 gen(time(0)); 
-    std::uniform_int_distribution<> uid(10, 1000);
+int main(int argc, char** argv)
+{
+    for (int s = 10; s < 10000001; s = s*10)
+    {
+        std::mt19937 gen(time(0)); 
+        std::uniform_int_distribution<> uid(10, 1000);
 
-    std::vector<int> data(10000);
-    std::generate(data.begin(), data.end(), std::bind(uid, gen));
+        std::vector<int> v(s);
+        std::generate(v.begin(), v.end(), std::bind(uid, gen));
+        
+        myHeapSort<int>(v);
 
-	myHeapSort(data);
+        int ok = true;
+        for (int i = 1; i < v.size(); ++i)
+        {
+            if (v[i-1] > v[i])
+            {
+                ok = false;
+                break;
+            }
+        }
 
-	std::cout << "Sorted array is \n"; 
-    for (int i : data) std::cout << i << ' ';
-    std::cout << std::endl;
-} 
+        if (ok)
+        {
+            std::cout << s << " - OK" << std::endl;
+        }
+        else
+        {
+            std::cout << s << " - FAIL" << std::endl;
+        }        
+    }
+    
+    
+    return 0;
+}
