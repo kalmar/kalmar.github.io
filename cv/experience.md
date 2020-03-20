@@ -9,7 +9,7 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
 + company: [Xored Inc](https://xored.com) / [Cisco](https://cisco.com)
 + location: Novosibirsk, Russia
 + stack
-  + Java / Hibernate / MQ / Oracle / HTML / JS
+  + Java / Hibernate / MQ / Oracle / PostgreSQL / HTML / JS
   + Linux
   + Git / Maven / Docker
 + reference: Neil McDonald / neilmcd@cisco.com
