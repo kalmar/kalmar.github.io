@@ -17,7 +17,7 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
   + Neil McDonald / neilmcd@cisco.com
 
 
-### Technical Lead (spare-time work in local univerity's lab)
+### Technical Lead (spare-time work in local university's lab)
 *Sep 2015 - Dec 2016*
 
 Wrote a client-server app for seismometric monitoring for [RusHydro](http://www.eng.rushydro.ru/).
@@ -61,7 +61,9 @@ deploying automation, virtualization & etc.
 + stack
   + Bash / Python / Power Shell
   + Linux / Windows / iOS
-+ reference: Igor Shpengler / igor.shpengler@intel.com
++ reference:
+  + Artem Amogolonov / artem.a.amogolonov@intel.com
+  + Igor Shpengler / igor.shpengler@intel.com
 
 
 ### Summer Intern in IT
