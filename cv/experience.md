@@ -15,7 +15,7 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
 + reference: Neil McDonald / neilmcd@cisco.com
 
 
-### Technical Lead (at institute, in parallel)
+### Technical Lead (spare-time work in local univerity's lab)
 *Sep 2015 - Dec 2016*
 
 Wrote a client-server app for seismometric monitoring for [RusHydro](http://www.eng.rushydro.ru/).
