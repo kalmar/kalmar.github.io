@@ -12,7 +12,9 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
   + Java / Hibernate / MQ / Oracle / PostgreSQL / HTML / JS
   + Linux
   + Git / Maven / Docker
-+ reference: Neil McDonald / neilmcd@cisco.com
++ reference:
+  + Gavin Camp / gcamp@cisco.com
+  + Neil McDonald / neilmcd@cisco.com
 
 
 ### Technical Lead (spare-time work in local univerity's lab)
