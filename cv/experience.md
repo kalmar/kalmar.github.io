@@ -21,7 +21,7 @@ Currently I'm working in outsourcing company Xored. Participating in developing 
 *Sep 2015 - Dec 2016*
 
 Wrote a client-server app for seismometric monitoring for [RusHydro](http://www.eng.rushydro.ru/).
-It's currently been using for [Zeya Dam](https://en.wikipedia.org/wiki/Zeya_Dam).
+It's currently been using at [Zeya Dam](https://en.wikipedia.org/wiki/Zeya_Dam) and [Nizhnekamsk Hydroelectric Station](https://en.wikipedia.org/wiki/Nizhnekamsk_Hydroelectric_Station).
 
 + company: [ICT SB RAS](http://www.ict.nsc.ru/en)
 + location: Novosibirsk, Russia

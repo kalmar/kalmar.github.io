@@ -6,7 +6,11 @@ To locally debug changes use following:
 ```bash
 python2 -m SimpleHTTPServer
 ```
-It will open simple http server at 0.0.0.0:8000.
+or
+```bash
+python3 -m http.server
+```
+It will open simple http server at http://0.0.0.0:8000/.
 
 
 ## CV
