@@ -3,9 +3,9 @@
 ### CS
 + C/C++
 + Java (Spring, Hibernate, JNI, Android SDK)
-+ HTML / CSS / JS
++ HTML / CSS / JS / React
 + Python
-+ Shell scripting (Bash, Power Shell, CMD)
++ Shell scripting
 + Git
 + CMake / Maven / Gradle
 
