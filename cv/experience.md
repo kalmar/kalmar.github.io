@@ -1,10 +1,25 @@
 ## Working experience
 
-### Senior Software Engineer
-*Nov 2016 - Present*
 
-Currently I'm working in outsourcing company Xored. Participating in developing Cisco’s
-[Prime Infrastructure](https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-infrastructure-3-5/model.html) and [DNA](https://www.cisco.com/c/en/us/solutions/enterprise-networks/index.html) products - which are platforms to manage network infrastructure built with Cisco hardware. I'm in charge for deploying configuration to managed devices.
+### Senior Software Engineer
+*Aug 2021 - Present*
+
+Developing internal product for searching data in company's data stores and easy data preparation, aka [Dremio](https://www.dremio.com/) but with graph editing tools instead of sql editor.
+
++ company: [Tinkoff](https://www.tinkoff.ru/)
++ location: Novosibirsk, Russia
++ stack:
+  + Java / Spring, Micronaut
+  + Git / Maven, Gradle / Docker, k8s, gitlab-cicd
++ references:
+  + Nikitin Sergey / se.nikitin@tinkoff.ru
+
+
+### Senior Software Engineer
+*Nov 2016 - Aug 2021*
+
+I worked for outsourcing company Xored. Participating in developing Cisco’s
+[Prime Infrastructure](https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-infrastructure-3-5/model.html) and [DNA](https://www.cisco.com/c/en/us/solutions/enterprise-networks/index.html) products - which are platforms to manage network infrastructure built with Cisco hardware. I was in charge for translating models into device's configurtations and deploying them to managed devices.
 
 + company: [Xored Inc](https://xored.com) / [Cisco](https://cisco.com)
 + location: Novosibirsk, Russia
