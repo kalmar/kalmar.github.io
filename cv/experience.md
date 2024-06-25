@@ -1,18 +1,35 @@
 ## Working experience
 
 
+### Backend Java Techlead
+*Jun 2023 - Present*
+
+
++ company: [ToYou](https://toyou.io/en) (through [Setronica](https://setronica.com/))
++ location: Batumi, Georgia
++ stack:
+  + Java / Spring / Hibernate
+  + Git / Maven, Gradle / Docker, k8s, github-cicd
+  + Postgres / Redis
+  + Kafka / Rabbit
++ references:
+  + Stanislav Barilnik / s.barilnik@arammeem.com
+  + Sofya Koroleva / s.koroleva@arammeem.com
+
+
 ### Senior Software Engineer
-*Aug 2021 - Present*
+*Aug 2021 - Jun 2023*
 
 Developing internal product for searching data in company's data stores and easy data preparation, aka [Dremio](https://www.dremio.com/) but with graph editing tools instead of sql editor.
 
 + company: [Tinkoff](https://www.tinkoff.ru/)
-+ location: Novosibirsk, Russia
++ location: Novosibirsk, Russia; Antalya, Turkey
 + stack:
   + Java / Spring, Micronaut
   + Git / Maven, Gradle / Docker, k8s, gitlab-cicd
+  + Postgres / Greenplum / Cassandra / Hadoop, Iceberg, Parquet
 + references:
-  + Nikitin Sergey / se.nikitin@tinkoff.ru
+  + Sergey Nikitin / se.nikitin@tinkoff.ru
 
 
 ### Senior Software Engineer
