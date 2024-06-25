@@ -4,13 +4,14 @@
 ### Backend Java Techlead
 *Jun 2023 - Present*
 
+My team is responsible for show-front facade for [ToYou's mobile app](https://play.google.com/store/apps/details?id=com.arammeem.android.apps.toyou&pcampaignid=web_share). Personalized catalog of products and search.
 
 + company: [ToYou](https://toyou.io/en) (through [Setronica](https://setronica.com/))
 + location: Batumi, Georgia
 + stack:
   + Java / Spring / Hibernate
   + Git / Maven, Gradle / Docker, k8s, github-cicd
-  + Postgres / Redis
+  + Postgres / Redis / Elastic
   + Kafka / Rabbit
 + references:
   + Stanislav Barilnik / s.barilnik@arammeem.com
