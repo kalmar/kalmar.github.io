@@ -1,18 +1,38 @@
 ## Working experience
 
 
+### Backend Java SDE
+*June 2024 - Present*
+
+As part of the core team, I'm responsible for the KYC pipeline at Sumsub. Bugs, features, refactoring.
+
++ company: [Sumsub](https://sumsub.com/)
++ location: Batumi, Georgia
++ stack:
+  + Java / Jakarta EE / gradle
+  + Mongo / Redis / S3
+  + Docker / k8s / gitlab-cicd
+  + Kafka
++ references:
+  + Nikolay Kaprov / knoeak@gmail.com / [linkedin](https://www.linkedin.com/in/knoeak/)
+  + Anastasia Manziuk / manzuk.n@gmail.com / [linkedin](https://www.linkedin.com/in/manziuk/)
++ highlights:
+  + I've written NFC validation for documents with the chip.
+  + I've rewritten the engine for calculating moderator salaries.
+
+
 ### Backend Java Techlead
-*Jun 2023 - Present*
+*Jun 2023 - Aug 2024*
 
 My team is responsible for show-front facade for [ToYou's mobile app](https://play.google.com/store/apps/details?id=com.arammeem.android.apps.toyou&pcampaignid=web_share). Personalized catalog of products and search.
 
 + company: [ToYou](https://toyou.io/en) (through [Setronica](https://setronica.com/))
 + location: Batumi, Georgia
 + stack:
-  + Java / Spring / Hibernate
-  + Git / Maven, Gradle / Docker, k8s, github-cicd
-  + Postgres / Redis / Elastic
-  + Kafka / Rabbit
+  + Java / Spring / Gradle, Maven
+  + Postgres / Redis / Elastic / Hibernate
+  + Docker / k8s / github-cicd
+  + Kafka, Rabbit
 + references:
   + Stanislav Barilnik / s.barilnik@arammeem.com
   + Sofya Koroleva / s.koroleva@arammeem.com
@@ -26,9 +46,10 @@ Developing internal product for searching data in company's data stores and easy
 + company: [Tinkoff](https://www.tinkoff.ru/)
 + location: Novosibirsk, Russia; Antalya, Turkey
 + stack:
-  + Java / Spring, Micronaut
-  + Git / Maven, Gradle / Docker, k8s, gitlab-cicd
-  + Postgres / Greenplum / Cassandra / Hadoop, Iceberg, Parquet
+  + Java / Spring, Micronaut / Maven, Gradle
+  + Docker / k8s / gitlab-cicd
+  + Postgres, Greenplum / Cassandra / Hadoop, Iceberg, Parquet
+  + Apache Calcite
 + references:
   + Sergey Nikitin / se.nikitin@tinkoff.ru
 
@@ -42,9 +63,9 @@ I worked for outsourcing company Xored. Participating in developing Cisco’s
 + company: [Xored Inc](https://xored.com) / [Cisco](https://cisco.com)
 + location: Novosibirsk, Russia
 + stack
-  + Java / Sping / Hibernate
-  + Linux
-  + Git / Maven / Docker
+  + Java / Sping / Maven
+  + Postgres / Hibernate
+  + Docker / k8s
 + reference:
   + Gavin Camp / gcamp@cisco.com
   + Neil McDonald / neilmcd@cisco.com
