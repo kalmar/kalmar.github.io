@@ -1,7 +1,7 @@
 ## Working experience
 
 
-### Backend Java SDE
+### Backend Java SDE / Teamlead
 *June 2024 - Present*
 
 As part of the core team, I'm responsible for the KYC pipeline at Sumsub. Bugs, features, refactoring.
@@ -21,7 +21,7 @@ As part of the core team, I'm responsible for the KYC pipeline at Sumsub. Bugs, 
   + I've rewritten the engine for calculating moderator salaries.
 
 
-### Backend Java Techlead
+### Backend Java SDE / Teamlead
 *Jun 2023 - Aug 2024*
 
 My team is responsible for show-front facade for [ToYou's mobile app](https://play.google.com/store/apps/details?id=com.arammeem.android.apps.toyou&pcampaignid=web_share). Personalized catalog of products and search.
