@@ -15,5 +15,5 @@ It will open simple http server at http://0.0.0.0:8000/.
 
 ## CV
 
-Link to europass cv:
-https://europass.cedefop.europa.eu/editors/en/cv/compose/cloud
+CV Builder:
+https://novoresume.com/editor/resume/f7d9a8a0-c67a-11ed-b011-f7148fddb41a
