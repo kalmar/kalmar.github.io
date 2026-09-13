@@ -17,3 +17,6 @@ It will open simple http server at http://0.0.0.0:8000/.
 
 CV Builder:
 https://novoresume.com/editor/resume/f7d9a8a0-c67a-11ed-b011-f7148fddb41a
+
+CV from MD:
+http://0.0.0.0:8000/cv.html
