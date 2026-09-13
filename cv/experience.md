@@ -17,8 +17,9 @@ As part of the core team, I'm responsible for the KYC pipeline at Sumsub. Bugs, 
   + Nikolay Kaprov / knoeak@gmail.com / [linkedin](https://www.linkedin.com/in/knoeak/)
   + Anastasia Manziuk / manzuk.n@gmail.com / [linkedin](https://www.linkedin.com/in/manziuk/)
 + highlights:
-  + I've written NFC validation for documents with the chip.
-  + I've rewritten the engine for calculating moderator salaries.
+  + Designed and implemented NFC validation for documents with the chip.
+  + Rewrote the engine for calculating moderator salaries.
+  + Made refactoring of custom OCR parcing engine (OCR and AI searching in applicant docs).
 
 
 ### Backend Java SDE / Teamlead
@@ -36,6 +37,9 @@ My team is responsible for show-front facade for [ToYou's mobile app](https://pl
 + references:
   + Stanislav Barilnik / s.barilnik@arammeem.com
   + Sofya Koroleva / s.koroleva@arammeem.com
++ highlights:
+  + Designed and implemented a custom protocol enabling server-driven UI rendering for the mobile app's facade layer.
+  + Rewrote search and merchant storefront engines, reducing Postgres load by 25%.
 
 
 ### Senior Software Engineer
@@ -49,9 +53,13 @@ Developing internal product for searching data in company's data stores and easy
   + Java / Spring, Micronaut / Maven, Gradle
   + Docker / k8s / gitlab-cicd
   + Postgres, Greenplum / Cassandra / Hadoop, Iceberg, Parquet
-  + Apache Calcite
+  + Apache Calcite, Flink
 + references:
   + Sergey Nikitin / se.nikitin@tinkoff.ru
++ highlights:
+  + Designed and implemented backend for grachical SQL editor for building ETL and analitics.
+  + Wrote a Greenplum (Postgres) plugin to map parquet/iceberg tables as external tables for internal RDB.
+  + Streaming through Flink
 
 
 ### Senior Software Engineer
