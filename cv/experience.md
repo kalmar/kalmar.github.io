@@ -2,7 +2,7 @@
 
 
 ### Backend Java SDE / Teamlead
-*June 2024 - Present*
+*June 2024 - June 2026*
 
 As part of the core team, I'm responsible for the KYC pipeline at Sumsub. Bugs, features, refactoring.
 
