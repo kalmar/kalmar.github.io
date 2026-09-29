@@ -13,6 +13,7 @@ As part of the core team, I'm responsible for the KYC pipeline at Sumsub. Bugs, 
   + Mongo / Redis / S3
   + Docker / k8s / gitlab-cicd
   + Kafka
+  + Claude Code, Codex / langchain4j
 + references:
   + Nikolay Kaprov / knoeak@gmail.com / [linkedin](https://www.linkedin.com/in/knoeak/)
   + Anastasia Manziuk / manzuk.n@gmail.com / [linkedin](https://www.linkedin.com/in/manziuk/)
