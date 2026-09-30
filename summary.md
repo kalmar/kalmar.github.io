@@ -34,7 +34,6 @@ Sumsub is a global identity-verification and anti-fraud platform. I was part of 
 - **Brought NFC chip verification into the KYC pipeline**: designed and implemented cryptographic-grade validation of chip data in biometric passports and ID cards, strengthening fraud protection.
 - **Rebuilt the in-house OCR parsing engine**, combining OCR with LLM-based search (LangChain4j) to extract data from applicant documents more accurately and make the engine easier to extend.
 - **Rewrote the moderator salary engine**, replacing legacy logic with a transparent, maintainable calculation model.
-- Introduced AI coding agents (Claude Code, Codex) into the team's daily workflow to speed up delivery.
 
 *Stack: Java, Jakarta EE, MongoDB, Redis, S3, Kafka, Docker, Kubernetes, GitLab CI/CD, LangChain4j*
 
