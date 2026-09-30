@@ -134,6 +134,13 @@
             gap: 12pt;
         }
 
+        .favicon {
+            width: 11pt;
+            height: 11pt;
+            margin-right: 3pt;
+            vertical-align: -1.5pt;
+        }
+
         .row .right {
             white-space: nowrap;
             text-align: right;
@@ -297,6 +304,16 @@
                     entry.append(next);
                     next = after;
                 }
+            });
+
+            // Company links in entry headers get the site's favicon
+            root.querySelectorAll('.row.main a[href^="http"]').forEach(a => {
+                const img = document.createElement('img');
+                img.className = 'favicon';
+                img.alt = '';
+                img.src = `https://www.google.com/s2/favicons?domain=${new URL(a.href).hostname}&sz=32`;
+                img.onerror = () => img.remove();
+                a.prepend(img);
             });
 
             root.querySelectorAll('a[href^="http"]').forEach(a => {
