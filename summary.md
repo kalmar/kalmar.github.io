@@ -10,7 +10,7 @@ Batumi, Georgia · [anton.romankov@gmail.com](mailto:anton.romankov@gmail.com) �
 
 Senior backend engineer and team lead with **13+ years** of building production systems, from low-level C++ to high-load Java microservices. I've maintained and evolved the core of an identity-verification (KYC) platform and designed a server-driven UI for a consumer app, a visual data platform for one of the world's largest digital banks, and network automation for Cisco's enterprise products.
 
-I lead teams and still write code. I'm most useful where a system has to be rethought, not just maintained: I've rewritten search, storefront, OCR, and payroll engines, making each one faster, simpler, and easier to extend. My degree in applied mathematics shows in how I approach algorithms and data. I use AI in my daily work, from integrating LLMs into products with LangChain4j to working with coding agents such as Claude Code and Codex.
+I lead teams and still write code. I'm most useful where a system has to be rethought, not just maintained: I've rewritten search, storefront, OCR, and payroll engines, making each one faster, simpler, and easier to extend. I use AI in my daily work, from integrating LLMs into products with LangChain4j to working with coding agents such as Claude Code and Codex.
 
 ## Technical Skills
 
@@ -30,10 +30,10 @@ I lead teams and still write code. I'm most useful where a system has to be reth
 
 Sumsub is a global identity-verification and anti-fraud platform. I was part of the core team that owns the KYC pipeline, the product's main revenue flow.
 
-- Owned the development and reliability of the KYC verification pipeline end to end: architecture, new features, production incidents, and large-scale refactoring.
-- **Brought NFC chip verification into the KYC pipeline**: designed and implemented cryptographic-grade validation of chip data in biometric passports and ID cards, strengthening fraud protection.
-- **Rebuilt the in-house OCR parsing engine**, combining OCR with LLM-based search (LangChain4j) to extract data from applicant documents more accurately and make the engine easier to extend.
-- **Rewrote the moderator salary engine**, replacing legacy logic with a transparent, maintainable calculation model.
+- Owned the development and reliability of the KYC verification pipeline end to end (**~500K verifications/day**, 99.95% uptime): architecture, new features, production incidents, and large-scale refactoring.
+- **Brought NFC chip verification into the KYC pipeline**: designed and implemented cryptographic-grade validation of chip data in biometric passports and ID cards for **100+ countries**.
+- **Rebuilt the in-house OCR parsing engine**, combining OCR with LLM-based search (LangChain4j) to extract data from applicant documents, raising field extraction accuracy from **85% to 95%** and reducing manual review by **20%**.
+- **Rewrote the moderator salary engine** for **500+ moderators** as a configurable, fully testable rules model.
 
 *Stack: Java, Jakarta EE, MongoDB, Redis, S3, Kafka, Docker, Kubernetes, GitLab CI/CD, LangChain4j*
 
@@ -42,9 +42,9 @@ Sumsub is a global identity-verification and anti-fraud platform. I was part of 
 
 ToYou is a super-app for food and grocery delivery in Saudi Arabia.
 
-- **Led the team** responsible for the backend-for-frontend facade of the mobile app: personalized product catalog, search, and merchant storefronts.
-- **Designed a custom server-driven UI protocol** that lets the backend compose mobile app screens, so product teams ship UI changes and experiments without waiting for app store releases.
-- **Cut PostgreSQL load by 25%** by redesigning the search and merchant storefront engines behind the high-traffic app, improving response times under peak load.
+- **Lead a team of 3 engineers** responsible for the backend-for-frontend facade of the mobile app (**80K+ orders per day**, **1K RPS** at peak): personalized product catalog, search, and merchant storefronts.
+- **Designed a custom server-driven UI protocol** that lets the backend compose mobile app screens, so product teams ship UI changes and experiments without waiting for app store releases, cutting UI change lead time from **__will be in next release__ to 1 minute**.
+- **Cut PostgreSQL load by 25%** by redesigning the search and merchant storefront engines behind the high-traffic app and reducing p95 latency by **40%**.
 
 *Stack: Java, Spring, PostgreSQL, Elasticsearch, Redis, Hibernate, Kafka, RabbitMQ, Kubernetes, GitHub Actions*
 
@@ -52,10 +52,9 @@ ToYou is a super-app for food and grocery delivery in Saudi Arabia.
 *Aug 2021 – Jun 2023 · Novosibirsk, Russia / Antalya, Turkey*
 
 Tinkoff is one of the world's largest fully digital banks.
-
-- Built the backend of an **internal data discovery and preparation platform** (a Dremio-like product) where analysts build ETL and analytics pipelines in a visual graph editor instead of writing SQL.
+- Built the backend of an **internal data discovery and preparation platform** (a Dremio-like product) where build ETL and analytics pipelines in a visual graph editor instead of writing SQL.
 - **Designed the query engine**, built on Apache Calcite, that turns visual graphs into optimized SQL.
-- **Built a Greenplum extension** that exposes Parquet/Iceberg data lake tables as native SQL tables, connecting the bank's warehouse to its lakehouse and giving analysts SQL access to the data lake without copying data.
+- **Built a Greenplum extension** that exposes Parquet/Iceberg data lake tables as native SQL tables, connecting the bank's warehouse to its lakehouse and giving analysts SQL access to **5 PB+** of data lake storage without copying data.
 - Developed **real-time streaming pipelines** on Apache Flink.
 
 *Stack: Java, Spring, Micronaut, Apache Calcite, Apache Flink, PostgreSQL, Greenplum, Cassandra, Hadoop, Iceberg, Parquet, Kubernetes*
@@ -64,7 +63,7 @@ Tinkoff is one of the world's largest fully digital banks.
 *Nov 2016 – Aug 2021 · Novosibirsk, Russia*
 
 - Developed **Cisco Prime Infrastructure** and **Cisco DNA Center**, enterprise platforms that manage network infrastructure for Cisco customers worldwide.
-- **Owned the configuration engine** that translates high-level network models into device configurations and deploys them to fleets of managed devices.
+- **Owned the configuration engine** that translates high-level network models into device configurations and deploys them to networks of up to **10K+ managed devices**.
 - Worked directly with Cisco engineering teams over five years of continuous collaboration.
 
 *Stack: Java, Spring, PostgreSQL, Hibernate, Docker, Kubernetes*
