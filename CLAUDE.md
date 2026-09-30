@@ -12,16 +12,21 @@ A personal GitHub Pages site (kalmar.github.io) that serves Anton Romankov's CV,
 python3 -m http.server
 ```
 
-Then open http://0.0.0.0:8000/. (`cv.html` fetches Markdown at runtime, so it won't work over `file://`.)
+Then open http://0.0.0.0:8000/. Pages fetch Markdown at runtime, so opening them via `file://` won't work.
 
 ## Architecture
 
-- `index.html` is the main resume: a self-contained, single-column, one-page A4 resume (in the style of sweresume.app / "Jake's Resume") with content and styles inline. Edit content directly in the HTML. It must stay one page when printed — check with:
+- `summary.md` is the single source of truth for the resume content. Edit content there, never in HTML.
+- `index.html` contains no content: on load it fetches `summary.md`, renders it with `marked` (jsDelivr CDN), then a small layout script reshapes the DOM. That script relies on these Markdown conventions in `summary.md`, so keep them:
+  - `# Name`, then the tagline paragraph and the contacts paragraph (centered header); `---` is hidden.
+  - `### Company · Title` immediately followed by `*Dates · Location*` becomes a two-row entry header (left/right aligned). The ` · ` separator is what splits left from right.
+  - A paragraph that is entirely `*Stack: ...*` gets the small italic stack style.
+  - The Technical Skills table has an empty header row, which is hidden.
+- Printing (the "Save as PDF" button / Ctrl+P) produces the PDF; there's A4 print CSS in `index.html`. Preview the print output headlessly (needs a local server, see above):
   ```bash
-  google-chrome --headless=new --no-pdf-header-footer --virtual-time-budget=5000 --print-to-pdf=/tmp/cv.pdf "file://$PWD/index.html" && pdfinfo /tmp/cv.pdf | grep Pages
+  google-chrome --headless=new --no-pdf-header-footer --virtual-time-budget=8000 --print-to-pdf=/tmp/cv.pdf http://localhost:8000/
   ```
-- `cv.html` is the older compact view that renders `cv/*.md` (personal + experience) client-side via the `<zero-md>` web component, styled by `index.css`. The `cv/*.md` files are the old, more detailed CV (with references) and are no longer used by `index.html`.
-- `anton_romankov.cv.pdf` is the downloadable CV linked from `index.html`. It is a static file and is not generated automatically — regenerate it from `index.html` with the command above if content changes.
+- Legacy, not linked from `index.html`: `cv.html` + `cv/*.md` (old detailed CV rendered via `<zero-md>`, styled by `index.css`) and `anton_romankov.cv.pdf` (old NovoResume export).
 
 ## docs/
 
