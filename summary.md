@@ -16,11 +16,12 @@ I lead small backend teams while staying hands-on: I hire, mentor, run design re
 
 | | |
 |---|---|
-| **Languages** | Java, C++, Python |
+| **Languages** | Java (8/11/17/21), Python, С++ |
 | **Backend** | Spring, Jakarta EE, Micronaut, Hibernate, REST, Event-Driven Architecture |
 | **Data & Streaming** | PostgreSQL, Greenplum, MongoDB, Redis, Elasticsearch, Cassandra, Kafka, RabbitMQ, Apache Flink, Apache Calcite, Hadoop, Iceberg, Parquet, S3 |
 | **AI / LLM** | LangChain4j, OCR + LLM Document Processing, Claude Code, Codex |
 | **Infrastructure** | Docker, Kubernetes, GitLab CI/CD, GitHub Actions, TeamCity, Jenkins, Gradle, Maven, CMake, Linux |
+| **Testing** | JUnit, Mockito, Testcontainers |
 | **Leadership** | Team Leadership, System Design, Code Review, Mentoring, Technical Roadmap |
 
 ## Professional Experience
@@ -56,7 +57,7 @@ Tinkoff is one of the world's largest fully digital banks.
 - Built the backend of an **internal data discovery and preparation platform** (a Dremio-like product) where build ETL and analytics pipelines in a visual graph editor instead of writing SQL.
 - **Designed the query engine**, built on Apache Calcite, that turns visual graphs into optimized SQL.
 - **Built a Greenplum extension** that exposes Parquet/Iceberg data lake tables as native SQL tables, connecting the bank's warehouse to its lakehouse and giving analysts SQL access to **5 PB+** of data lake storage without copying data.
-- Developed **real-time streaming pipelines** on Apache Flink.
+- Developed **streaming pipelines** on Apache Flink.
 
 *Stack: Java, Spring, Micronaut, Apache Calcite, Apache Flink, PostgreSQL, Greenplum, Cassandra, Hadoop, Iceberg, Parquet, Kubernetes*
 
