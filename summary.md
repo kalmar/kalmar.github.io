@@ -18,7 +18,7 @@ I lead small backend teams while staying hands-on: I hire, mentor, run design re
 |---|---|
 | **Languages** | Java (8/11/17/21), Python, С++ |
 | **Backend** | Spring, Jakarta EE, Micronaut, Hibernate, REST, Event-Driven Architecture |
-| **Data & Streaming** | PostgreSQL, Greenplum, MongoDB, Redis, Elasticsearch, Cassandra, Kafka, RabbitMQ, Apache Flink, Apache Calcite, Hadoop, Iceberg, Parquet, S3 |
+| **Data & Streaming** | PostgreSQL, Greenplum, MongoDB, Redis, Elasticsearch, Clickhouse, Cassandra, Kafka, RabbitMQ, Apache Flink, Apache Calcite, Hadoop, Iceberg, Parquet, S3 |
 | **AI / LLM** | LangChain4j, OCR + LLM Document Processing, Claude Code, Codex |
 | **Infrastructure** | Docker, Kubernetes, GitLab CI/CD, GitHub Actions, TeamCity, Jenkins, Gradle, Maven, CMake, Linux |
 | **Testing** | JUnit, Mockito, Testcontainers |
@@ -37,7 +37,7 @@ Sumsub is a global identity-verification and anti-fraud platform. I led a backen
 - **Rebuilt the in-house OCR parsing engine**, combining OCR with LLM-based search (LangChain4j) to extract data from applicant documents, raising field extraction accuracy from **85% to 95%** and reducing manual review by **20%**.
 - **Rewrote the moderator salary engine** for **500+ moderators** as a configurable, fully testable rules model.
 
-*Stack: Java, Jakarta EE, MongoDB, Redis, S3, Kafka, Docker, Kubernetes, GitLab CI/CD, LangChain4j*
+*Stack: Java, Jakarta EE, MongoDB, Redis, S3, Kafka, Clickhouse, Docker, Kubernetes, GitLab CI/CD, LangChain4j*
 
 ### [ToYou](https://toyou.io/en) (via [Setronica](https://setronica.com/)) · Backend Engineer / Team Lead
 *Jun 2023 – Aug 2024 · Batumi, Georgia*
