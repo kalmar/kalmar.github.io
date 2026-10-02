@@ -31,7 +31,7 @@ I lead small backend teams while staying hands-on: I hire, mentor, run design re
 
 Sumsub is a global identity-verification and anti-fraud platform. I led a backend team of 4 engineers within the core team that owns the KYC pipeline, the product's main revenue flow.
 
-- Owned the development and reliability of the KYC verification pipeline end to end (**~500K verifications/day**, 99.95% uptime): architecture, new features, production incidents, and large-scale refactoring.
+- Owned the development and reliability of the KYC verification pipeline end to end (**~500K verifications/day**, 99.9% uptime): architecture, new features, production incidents, and large-scale refactoring.
 - **Led a team of 4 backend engineers**: ran sprint planning, design reviews, and code review.
 - **Brought NFC chip verification into the KYC pipeline**: designed and implemented cryptographic-grade validation of chip data in biometric passports and ID cards for **100+ countries**.
 - **Rebuilt the in-house OCR parsing engine**, combining OCR with LLM-based search (LangChain4j) to extract data from applicant documents, raising field extraction accuracy from **85% to 95%** and reducing manual review by **20%**.
@@ -46,7 +46,7 @@ ToYou is a super-app for food and grocery delivery in Saudi Arabia.
 
 - **Led a team of 3 engineers** responsible for the backend-for-frontend facade of the mobile app (**80K+ orders per day**, **1K RPS** at peak): personalized product catalog, search, and merchant storefronts.
 - **Designed a custom server-driven UI protocol** that lets the backend compose mobile app screens, so product teams ship UI changes and experiments without waiting for app store releases, cutting UI change lead time from **__will be in next release__ to 1 minute**.
-- **Cut PostgreSQL load by 25%** by redesigning the search and merchant storefront engines behind the high-traffic app and reducing p95 latency by **40%**.
+- Redesigned the search and merchant storefront engines behind a high-traffic app, **cutting PostgreSQL load by 25% and p95 latency by 40%**.
 
 *Stack: Java, Spring, PostgreSQL, Elasticsearch, Redis, Hibernate, Kafka, RabbitMQ, Kubernetes, GitHub Actions*
 
