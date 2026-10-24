@@ -20,7 +20,7 @@ I lead small backend teams while staying hands-on: I hire, mentor, run design re
 | **Backend** | Spring, Jakarta EE, Micronaut, Hibernate, REST, Event-Driven Architecture |
 | **Data & Streaming** | PostgreSQL, Greenplum, MongoDB, Redis, Elasticsearch, Clickhouse, Cassandra, Kafka, RabbitMQ, Apache Flink, Apache Calcite, Hadoop, Iceberg, Parquet, S3 |
 | **AI / LLM** | LangChain4j, OCR + LLM Document Processing, Claude Code, Codex |
-| **Infrastructure** | Docker, Kubernetes, GitLab CI/CD, GitHub Actions, TeamCity, Jenkins, Gradle, Maven, CMake, Linux |
+| **Infrastructure** | Docker, Kubernetes, AWS, GCP, GitLab CI/CD, GitHub Actions, TeamCity, Jenkins, Gradle, Maven, CMake, Linux |
 | **Testing** | JUnit, Mockito, Testcontainers |
 | **Leadership** | Team Leadership, System Design, Code Review, Mentoring, Technical Roadmap |
 
